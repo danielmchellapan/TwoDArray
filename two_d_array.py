@@ -1,11 +1,11 @@
 class TwoDArray:
 
     def __init__(self):
-        self._array = []
-        temp_array = [1, 2, 3, 4, 5, 6, 7, 8]
-        for i in temp_array:
-            self._array.append(i)
-        print(self._array)
+        self._board = []
+        board1 = [[0]*8 for _ in range(8)]
+        for x in board1:
+            print(x)
+            self._board.append(x)
 
 
 def print_hi():
